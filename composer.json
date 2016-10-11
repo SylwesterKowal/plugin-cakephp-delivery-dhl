@@ -1,0 +1,23 @@
+{
+    "name": "sylwesterkowal/plugin-cakephp-delivery-dhl",
+    "description": "DHL plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dhl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dhl\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
